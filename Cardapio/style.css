@@ -1,0 +1,104 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+body{
+  /* background: linear-gradient(#004070, #000000); */
+  background: #000000;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  overflow-x: hidden;
+}
+a{
+  text-decoration: none;
+}
+
+.conteudoTopo{
+  width: 100vw;
+  margin: 0 auto;
+  padding: 10px 25px;
+	background:url(../img/background/BackgroundTopo.png);
+  background-size: cover;
+  background-position: center;
+}
+.nomeTopo{
+  font-size: 32px;
+  text-align: center;
+  padding: 6px 0 6px 0;
+  font-weight: bolder;
+  color: #ffffff;
+}
+
+.conteudoCardapio{
+  display: flex;
+}
+.descricaoCardapio{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 10px;
+}
+.cardapio{
+  margin: 5px;
+  /* background: #1280da55; */
+  background: #ffffff2b;
+  padding: 10px 10px 91px 10px;
+  border-radius: 15px;
+  border:  #1280da8d solid 1px;
+  position: relative;
+}
+.cardapioParte2{
+  border-top: #1280da8d solid 1px;
+  padding: 5px 5px 20px 5px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.cardapioNome, .cardapioValor, .cardapioDescricao, .cardapioImagem{
+  color: #ffffff;
+  text-align: center;
+  padding: 3px 0px;
+}
+.cardapioNome{
+  font-weight: bolder;
+  font-size: 18px;
+}
+.cardapioDescricao{
+  line-height: 20px;
+  text-align: justify;
+}
+.cardapioWpp{
+  text-align: center;
+}
+.link{
+  background-color: #EA9A5B;
+  border-radius: 50px;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  color: #000000;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.link:hover{
+  box-shadow: 0px 0px 8px 2px #ec893d;
+}
+
+@media only screen and (max-width: 800px){
+  .descricaoCardapio{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+  }
+}
+@media only screen and (max-width: 563px){
+  .descricaoCardapio{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 10px;
+  }
+}
