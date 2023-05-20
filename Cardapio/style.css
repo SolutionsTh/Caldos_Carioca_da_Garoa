@@ -5,8 +5,7 @@
   font-family: Arial;
 }
 body{
-  /* background: linear-gradient(#004070, #000000); */
-  background: #000000;
+  background: #FBE9EA;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -33,24 +32,34 @@ a{
 }
 
 .conteudoCardapio{
-  display: flex;
+  width: 95%;
+  margin: 10px auto;
 }
 .descricaoCardapio{
+  background: #FFBFAA;
+  padding: 10px 5px 5px 5px;
+  margin: 10px 0px;
+  border-radius: 15px;
+}
+.conteudoGrupoCardapio{
+  background: #dc617c8e;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+  padding: 5px;
+  border-radius: 5px 5px 12px 12px;
 }
 .cardapio{
-  margin: 5px;
-  /* background: #1280da55; */
-  background: #ffffff2b;
+  margin: 5px auto;
+  /* background: #DC617B55; */
+  /* background: #00000028; */
+  background: #ffffff9d;
   padding: 10px 10px 91px 10px;
   border-radius: 15px;
-  border:  #1280da8d solid 1px;
+  border:  #DC617B8d solid 1px;
   position: relative;
 }
 .cardapioParte2{
-  border-top: #1280da8d solid 1px;
+  border-top: #DC617B8d solid 1px;
   padding: 5px 5px 20px 5px;
   position: absolute;
   bottom: 0;
@@ -58,7 +67,7 @@ a{
   left: 0;
 }
 .cardapioNome, .cardapioValor, .cardapioDescricao, .cardapioImagem{
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   padding: 3px 0px;
 }
@@ -74,7 +83,7 @@ a{
   text-align: center;
 }
 .link{
-  background-color: #EA9A5B;
+  background-color: #FFBFAA;
   border-radius: 50px;
   text-align: center;
   padding: 10px;
@@ -85,7 +94,7 @@ a{
 }
 
 .link:hover{
-  box-shadow: 0px 0px 8px 2px #ec893d;
+  box-shadow: 0px 0px 8px 2px #E5AB99;
 }
 
 @media only screen and (max-width: 800px){
