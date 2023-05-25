@@ -11,6 +11,8 @@ body{
   background-attachment: fixed;
   background-position: center;
   overflow-x: hidden;
+  color: #ffffff;
+  font-size: 13px;
 }
 a{
   text-decoration: none;
@@ -44,10 +46,13 @@ a{
   margin: 5px;
   /* background: #1280da55; */
   background: #ffffff2b;
-  padding: 10px 10px 169px 10px;
+  padding: 10px 10px 140px 10px;
   border-radius: 15px;
   border:  #1280da8d solid 1px;
   position: relative;
+}
+.cardapioParte1{
+  padding-bottom: 10px;
 }
 .cardapioParte2{
   border-top: #1280da8d solid 1px;
@@ -64,14 +69,14 @@ a{
 }
 .cardapioImagem{
   display: flex;
-  min-height: 155px;
+  min-height: 160px;
 }
 .cardapioImagemIcone{
   margin: auto;
 }
 .cardapioNome{
   font-weight: bolder;
-  font-size: 18px;
+  font-size: 15px;
 }
 .cardapioDescricao{
   line-height: 20px;
@@ -81,7 +86,7 @@ a{
   text-align: center;
 }
 #tituloCardapioValor{
-  font-size: 18px;
+  font-size: 15px;
   padding: 3px 0px;
 }
 .link{
@@ -89,9 +94,9 @@ a{
   color: #170F09;
   border-radius: 50px;
   text-align: center;
-  padding: 10px;
+  padding: 5px 10px;
   margin: auto;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bolder;
 }
 
