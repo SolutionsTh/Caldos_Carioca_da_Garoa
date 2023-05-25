@@ -5,14 +5,15 @@
   font-family: Arial;
 }
 body{
-  background: #FBE9EA;
+  /* background: linear-gradient(#004070, #000000); */
+  background: #000000;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
 }
 @font-face {
   font-family: logo;
-  src: Url("../fonte/Ants\ Valley\ -\ Personal\ Use.otf");
+  src: Url("../fonte/Yellowtail-Regular.ttf");
 }
 a{
   text-decoration: none;
@@ -34,14 +35,14 @@ a{
   height: 150px;
   width: 150px;
   margin: auto;
-  box-shadow: 0px 0px 40px 2px  #DC617B;
+  box-shadow: 0px 0px 40px 2px #1281DA;
   padding: 1px;
   background-color: #ffffff;
 }
 
 .nomeNegocio{
   text-align: center;
-  color: #DC617B;
+  color: #1281DA;
   font-size: 50px;
   padding: 10px 5px;
   font-family: logo;
@@ -57,16 +58,16 @@ a{
 }
 .link{
   min-width: 350px;
-  background-color: #FFBFAA;
+  background-color: #EA9A5B;
   border-radius: 50px;
   text-align: center;
   padding: 10px;
   margin: auto;
-  color: #ffffff;
+  color: #000000;
   font-size: 16px;
   font-weight: bolder;
 }
 
 .link:hover{
-  box-shadow: 0px 0px 5px 5px #E5AB99;
+  box-shadow: 0px 0px 5px 5px #D28A51;
 }
