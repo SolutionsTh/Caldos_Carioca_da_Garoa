@@ -13,7 +13,7 @@ body{
 }
 @font-face {
   font-family: logo;
-  src: Url("../fonte/Yellowtail-Regular.ttf");
+  src: Url("../Fonte/Yellowtail-Regular.ttf");
 }
 a{
   text-decoration: none;
