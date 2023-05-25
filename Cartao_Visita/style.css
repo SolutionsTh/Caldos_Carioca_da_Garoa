@@ -57,17 +57,19 @@ a{
   margin: 7px;
 }
 .link{
-  min-width: 350px;
   background-color: #EA9A5B;
+  color: #170F09;
+  min-width: 350px;
   border-radius: 50px;
   text-align: center;
   padding: 10px;
   margin: auto;
-  color: #000000;
   font-size: 16px;
   font-weight: bolder;
 }
 
 .link:hover{
-  box-shadow: 0px 0px 5px 5px #D28A51;
+  background-color: #170F09;
+  color: #EA9A5B;
+  box-shadow: 0px 0px 6px 6px #D28A51;
 }
