@@ -63,6 +63,7 @@ a{
   padding: 3px 0px;
 }
 .cardapioImagem{
+  display: flex;
   min-height: 155px;
 }
 .cardapioNome{
