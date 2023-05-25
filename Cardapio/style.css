@@ -66,6 +66,9 @@ a{
   display: flex;
   min-height: 155px;
 }
+.cardapioImagemIcone{
+  margin: auto;
+}
 .cardapioNome{
   font-weight: bolder;
   font-size: 18px;
