@@ -5,21 +5,28 @@
   font-family: Arial;
 }
 body{
-  /* background: linear-gradient(#004070, #000000); */
   background: #000000;
+  /* background: url(../Img/Background/BackgroundFundo.jpg)  repeat-x fixed; */
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+  background-size: cover;
+  overflow-x: hidden;
+  word-wrap: break-word;
+}
+a{
+  text-decoration: none;
 }
 @font-face {
   font-family: logo;
   src: Url("../Fonte/Yellowtail-Regular.ttf");
-}.nomeNegocio{
+}#nomeNegocio1{
   font-family: logo;
   font-size: 50px;
 }
-a{
-  text-decoration: none;
+#nomeNegocio2{
+  font-size: 24px;
+}
+.subNomeNegocio{
+  font-size: 18px;
 }
 
 .pagina{
@@ -38,28 +45,36 @@ a{
   height: 150px;
   width: 150px;
   margin: auto;
-  box-shadow: 0px 0px 40px 2px #1281DA;
+  box-shadow: 0px 0px 40px 2px #1281DA; /* tom princial original */
   padding: 1px;
   background-color: #ffffff;
 }
 
 .nomeNegocio{
   text-align: center;
-  color: #1281DA;
-  padding: 10px 5px;
+  color: #1281DA; /* tom princial original */
+  padding-top: 30px;
+}
+#nomeNegocio2{
+  padding-top: 0px;
+}
+.subNomeNegocio{
+  color: #ffffff;
+  text-align: center;
+  padding-top: 5px;
 }
 
 .conteudoLinks{
   display: grid;
-  margin: 5px;
+  padding: 10px 5px 5px 5px;
 }
 .descricaoLink{
   display: flex;
   margin: 7px;
 }
 .link{
-  background-color: #EA9A5B;
-  color: #170F09;
+  background-color: #EA9A5B; /* tom secundario original */
+  color: #170F09; /* 4 tons antes do preto secundario */
   min-width: 350px;
   border-radius: 50px;
   text-align: center;
@@ -70,7 +85,7 @@ a{
 }
 
 .link:hover{
-  background-color: #170F09;
-  color: #EA9A5B;
-  box-shadow: 0px 0px 6px 6px #D28A51;
+  color: #EA9A5B; /* tom secundario original */
+  background-color: #170F09; /* 4 tons antes do preto secundario */
+  box-shadow: 0px 0px 6px 6px #D28A51; /* 1 tom mais escuro secundario */
 }
