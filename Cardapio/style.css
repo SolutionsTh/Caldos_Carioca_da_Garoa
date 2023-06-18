@@ -43,7 +43,7 @@ a{
   margin: 10px;
 }
 .cardapio{
-  margin: 5px;
+  margin: 5px auto;
   /* background: #1280da55; */
   background: #ffffff2b;
   padding: 10px 10px 141px 10px;
