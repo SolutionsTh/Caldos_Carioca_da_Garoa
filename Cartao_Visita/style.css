@@ -17,13 +17,17 @@ a{
 }
 @font-face {
   font-family: logo;
-  src: Url("../Fonte/Yellowtail-Regular.ttf");
+  src: Url("../Fonte/FREESCPT.TTF");
 }#nomeNegocio1{
   font-family: logo;
   font-size: 50px;
 }
-#nomeNegocio2{
-  font-size: 24px;
+@font-face {
+  font-family: logo1;
+  src: Url("../Fonte/Fontspring-DEMO-scaffold-regular.otf");
+}#nomeNegocio2{
+  font-family: logo1;
+  font-size: 30px;
 }
 .subNomeNegocio{
   font-size: 18px;
