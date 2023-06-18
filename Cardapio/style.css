@@ -46,7 +46,7 @@ a{
   margin: 5px auto;
   /* background: #1280da55; */
   background: #ffffff2b;
-  padding: 10px 10px 141px 10px;
+  padding: 10px 10px 192px 10px;
   border-radius: 15px;
   border:  #1280da8d solid 1px;
   position: relative;
@@ -70,7 +70,7 @@ a{
 }
 .cardapioImagem{
   display: flex;
-  min-height: 160px;
+  min-height: 170px;
 }
 .cardapioImagemIcone{
   margin: auto;
@@ -92,10 +92,6 @@ a{
   text-align: center;
   padding: 10px 0px;
 }
-#tituloCardapioValor{
-  font-size: 15px;
-  padding: 3px 0px;
-}
 .link{
   background-color: #EA9A5B;
   color: #170F09;
@@ -105,12 +101,20 @@ a{
   margin: auto;
   font-size: 14px;
   font-weight: bolder;
-}
-
-.link:hover{
+}.link:hover{
   background-color: #170F09;
   color: #EA9A5B;
   box-shadow: 0px 0px 6px 6px #D28A51;
+}
+.Observacao{
+  text-align: left;
+  padding: 10px 3px 5px 3px;
+  font-size: 16px;
+}
+.linkInstagram{
+  color: #EA9A5B;
+}.linkInstagram:hover{
+  text-decoration: underline #1280da 2px;
 }
 
 /* @media only screen and (max-width: 800px){
