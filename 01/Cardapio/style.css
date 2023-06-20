@@ -17,12 +17,6 @@ body{
 a{
   text-decoration: none;
 }
-input{
-  border: #00000000;
-}
-textarea {
-  resize: none;
-}
 
 .conteudoTopo{
   width: 100vw;
@@ -40,12 +34,8 @@ textarea {
   color: #ffffff;
 }
 
-
 .conteudoCardapio{
   margin: auto;
-  display: block;
-}.conteudoCardapioNone{
-  display: none;
 }
 .descricaoCardapio{
   display: grid;
@@ -102,27 +92,19 @@ textarea {
   text-align: center;
   padding: 10px 0px;
 }
-.conteudoBotao{
-  display: flex;
-}
-.linkConteudoBotao{
-  text-align: center;
-}
-.botao{
+.link{
   background-color: #EA9A5B;
   color: #170F09;
-  cursor: pointer;
-}.botao:hover{
-  background-color: #170F09;
-  color: #EA9A5B;
-  box-shadow: 0px 0px 6px 6px #D28A51;
-}
-.link{
   border-radius: 50px;
+  text-align: center;
   padding: 5px 10px;
   margin: auto;
   font-size: 14px;
   font-weight: bolder;
+}.link:hover{
+  background-color: #170F09;
+  color: #EA9A5B;
+  box-shadow: 0px 0px 6px 6px #D28A51;
 }
 .Observacao{
   text-align: left;
@@ -135,76 +117,18 @@ textarea {
   text-decoration: underline #1280da 2px;
 }
 
-
-
-.conteudoPedido{
-  display: flex;
-  width: 100vw;
-  margin: 20px auto;
-}.conteudoPedidoNone{
-  display: none;
+/* @media only screen and (max-width: 800px){
+  .descricaoCardapio{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+  }
 }
-.descricaoPedido{
-  background: #ffffff2b;
-  border:  #1280da8d solid 1px;
-  margin: auto;
-  padding: 10px;
-  border-radius: 15px;
+@media only screen and (max-width: 563px){
+  .descricaoCardapio{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 10px;
+  }
 }
-.nomePedido{
-  text-align: center;
-  color: #1280da;
-  font-size: 25px;
-}
-.tituloDescricaoPedido{
-  font-weight: bolder;
-  padding: 5px 0px;
-  margin: auto;
-}
-.nomeDescricaoPedido{
-  display: block;
-  padding: 5px 0px;
-  font-size: 15px;
-}
-
-.coluna2{
-  display: flex;
-  justify-content: space-between;
-}
-.campo{
-  margin-top: 2px;
-  border-radius: 4px;
-  border:  #1280da8d solid 1px;
-  background-color: #000000;
-  color: #ffffff;
-  padding: 3px;
-}
-.campoInput{
-  width: 300px;
-}
-.coluna2 .campoInput{
-  width: 145px;  
-}
-.coluna2 #pedidoCidade{
-  width: 220px;  
-}
-.coluna2 #pedidoEstado{
-  width: 70px;  
-}
-.campoTextarea{
-  width: 300px;
-  height: 38px;
-}
-#pedidoReferencia{
-  width: 300px;
-  height: 68px;
-}
-.campoQuantidade{
-  width: 50px;
-}
-
-.titulo{
-  padding-top: 15px;
-  font-size: 17px;
-  color: #1280da;
-}
+ */
