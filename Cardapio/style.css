@@ -27,6 +27,7 @@ textarea {
 /* width */
 ::-webkit-scrollbar {
   width: 5px;
+  background-color: #ffffff2b;
 }
 
 /* Track */
