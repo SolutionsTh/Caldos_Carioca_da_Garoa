@@ -1,0 +1,67 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+body{
+  background: #000000;
+  /* background: url(../Img/Background/BackgroundFundo.jpg)  repeat-x fixed; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+  word-wrap: break-word;
+}
+a{
+  text-decoration: none;
+}
+@font-face {
+  font-family: logo;
+  src: Url("../Fonte/FREESCPT.TTF");
+}#nomeNegocio1{
+  font-family: logo;
+  font-size: 50px;
+}
+@font-face {
+  font-family: logo1;
+  src: Url("../Fonte/Fontspring-DEMO-scaffold-regular.otf");
+}#nomeNegocio2{
+  font-family: logo1;
+  font-size: 30px;
+}
+.subNomeNegocio{
+  font-size: 18px;
+}
+
+.pagina{
+  display: flex;
+  height: 100vh;
+
+}
+.conteudoPagina{
+  margin: auto;
+  padding: 25px 0px;
+}
+
+.conteudoIcone{
+  display: flex;
+}
+.imagemIcone{
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  margin: auto;
+  padding: 1px;
+  background-color: #ffffff;
+}
+
+.conteudoTexto{
+  width: 95%;
+  margin: 15px auto 0px auto;
+}
+.paragrafoConteudoTexto{
+  color: #ffffff;
+  line-height: 20px;
+  text-indent: 30px;
+  padding: 5px;
+}
