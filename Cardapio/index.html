@@ -140,6 +140,9 @@
   </section>
   <section class="conteudoPedidoNone" id="conteudoPedido">
     <div class="descricaoPedido">
+      <div class="conteudoPedidoFechar">
+        <span class="botao botaoFechar material-icons " id="botaoVoltarImagem" onclick="fecharPedido()">close</span>
+      </div>
       <h1 class="nomePedido">Pedido</h1>
       <p class="nomeDescricaoPedido">
         <span class="tituloDescricaoPedido">Sabor:</span>
@@ -201,26 +204,26 @@
         <span class="tituloDescricaoPedido">Total do Pedido:</span>
         <span class="informacaoDescricaoPedido" id="pedidoTotalPedido" type="text"></span>
       </p>
-      <p class="nomeDescricaoPedido titulo">
+      <p class="nomeDescricaoPedido titulo" style="text-align: center;">
         <span class="tituloDescricaoPedido">Endereço para Entrega</span>
       </p>
       <div class="coluna2">
         <p class="nomeDescricaoPedido">
           <label class="tituloDescricaoPedido">CEP:</label><br>
-          <input class="informacaoDescricaoPedido campo campoInput" id="pedidoCep" type="text" name="cep" />
+          <input class="informacaoDescricaoPedido campo campoInput" id="pedidoCep" type="text" name="cep" onchange="salvarEnderecoCep()" />
         </p>
         <p class="nomeDescricaoPedido">
           <label class="tituloDescricaoPedido">Número:</label><br>
-          <input class="informacaoDescricaoPedido campo campoInput" id="pedidoNumero" type="text" name="estado" />
+          <input class="informacaoDescricaoPedido campo campoInput" id="pedidoNumero" type="text" name="numero" onchange="salvarEnderecoNumero()" />
         </p>
       </div>
       <p class="nomeDescricaoPedido">
         <label class="tituloDescricaoPedido">Rua:</label><br>
-        <textarea class="informacaoDescricaoPedido campo campoTextarea" id="pedidoRua" type="text" name="estado"></textarea>
+        <textarea class="informacaoDescricaoPedido campo campoTextarea" id="pedidoRua" type="text" name="rua"></textarea>
       </p>
       <p class="nomeDescricaoPedido">
         <label class="tituloDescricaoPedido">Bairro:</label><br>
-        <textarea class="informacaoDescricaoPedido campo campoTextarea" id="pedidoBairro" type="text" name="estado"></textarea>
+        <textarea class="informacaoDescricaoPedido campo campoTextarea" id="pedidoBairro" type="text" name="bairro"></textarea>
       </p>
       <div class="coluna2">
         <p class="nomeDescricaoPedido">
@@ -235,16 +238,16 @@
       <div class="coluna2">
         <p class="nomeDescricaoPedido">
           <label class="tituloDescricaoPedido">Bloco:</label><br>
-          <input class="informacaoDescricaoPedido campo campoInput" id="pedidoBloco" type="text" name="estado" />
+          <input class="informacaoDescricaoPedido campo campoInput" id="pedidoBloco" type="text" name="bloco" onchange="salvarEnderecoBloco()" />
         </p>
         <p class="nomeDescricaoPedido">
           <label class="tituloDescricaoPedido">Apartamento:</label><br>
-          <input class="informacaoDescricaoPedido campo campoInput" id="pedidoApartamento" type="text" name="estado" />
+          <input class="informacaoDescricaoPedido campo campoInput" id="pedidoApartamento" type="text" name="apartamento" onchange="salvarEnderecoApartamento()" />
         </p>
       </div>
       <p class="nomeDescricaoPedido">
         <label class="tituloDescricaoPedido">Referência:</label><br>
-        <textarea class="informacaoDescricaoPedido campo campoTextarea" id="pedidoReferencia" type="text" name="estado"></textarea>
+        <textarea class="informacaoDescricaoPedido campo campoTextarea" id="pedidoReferencia" type="text" name="referencia" onchange="salvarEnderecoReferencia()"></textarea>
       </p>
       
       
@@ -256,5 +259,6 @@
 
   <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="main.js"></script>
+  <script src="enderecoSalvarPreencher.js"></script>
 </body>
 </html>
